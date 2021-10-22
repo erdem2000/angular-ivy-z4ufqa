@@ -6,9 +6,7 @@ import { Directive, ElementRef } from '@angular/core';
 export class BigDirective {
 
   constructor(el:ElementRef) {
-    el.nativeElement.style.backgroundColor = 'red';
+    el.nativeElement.style.backgroundColor = 'yellow';
 
    }
-
-
 }

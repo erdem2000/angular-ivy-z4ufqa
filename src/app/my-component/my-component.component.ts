@@ -11,7 +11,7 @@ export class MyComponentComponent implements OnInit {
   data: string;
   constructor(
     private myService: MyServiceService,
-    private myGuard: MyGuardGuard
+    private myGuard: MyGuardGuard,
   ) {}
 
   ngOnInit() {
