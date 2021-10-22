@@ -5,12 +5,13 @@ import { AppComponent } from './app.component';
 import { MyComponentComponent } from './my-component/my-component.component';
 import { MyServiceService } from './my-service.service';
 import { MyPipePipe } from './my-pipe.pipe';
-import {MyGuardGuard} from './my-guard.guard';
+import { MyGuardGuard } from './my-guard.guard';
+import { BigDirective } from './big.directive';
 
 @NgModule({
   imports: [BrowserModule],
   declarations: [AppComponent, MyComponentComponent, MyPipePipe],
-  providers: [MyServiceService,MyGuardGuard],
+  providers: [MyServiceService,MyGuardGuard, BigDirective],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
