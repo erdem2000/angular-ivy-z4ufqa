@@ -10,8 +10,8 @@ import { BigDirective } from './big.directive';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [AppComponent, MyComponentComponent, MyPipePipe],
-  providers: [MyServiceService,MyGuardGuard, BigDirective],
+  declarations: [AppComponent, MyComponentComponent, MyPipePipe, BigDirective],
+  providers: [MyServiceService,MyGuardGuard],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,12 +1,10 @@
 import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
-  selector: '[appBig]'
+  selector: '[appBig2]',
 })
 export class BigDirective {
-
-  constructor(el:ElementRef) {
-    el.nativeElement.style.backgroundColor = 'yellow';
-
-   }
+  constructor(private el: ElementRef) {
+    this.el.nativeElement.style.backgroundColor = 'yellow';
+  }
 }
