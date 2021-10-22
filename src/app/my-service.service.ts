@@ -1,12 +1,10 @@
 import { Injectable } from '@angular/core';
 
-@Injectable(
-  {
-    providedIn:'root'
-  }
-)
+@Injectable({
+  providedIn: 'root',
+})
 export class MyServiceService {
-  data: string = 'Erdem';
+  data: string = 'Erdem3';
   constructor() {}
 
   getData(): string {
